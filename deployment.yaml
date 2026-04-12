@@ -229,3 +229,8 @@ pipeline {
 ##kubernets
 kubectl apply -f deployement.yaml
 kubectl apply -f sevice.yaml
+
+#update git
+git status 
+git commit -m "sonu"
+ git push
